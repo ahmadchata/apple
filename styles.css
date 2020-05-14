@@ -1,26 +1,28 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 nav {
     position: relative;
-    vertical-align: baseline;
-    background: linear-gradient(#777, #666, #555, #666, #777);
+    background: linear-gradient(#999, #888, #777, #666, #333, #666, #777, #888, #999);
     border-radius: 4px;
-    top: 70px;;
+    top: 40px;;
     width: 70%;
     height: 40px;
     margin: auto;
 }
 
 nav ul {
-    padding-top: 10px;
     display: flex;
+    height: 100%;
     list-style-type: none;
+}
+
+nav ul li {
+    padding-top: 10px;
 }
 
 .menu {
@@ -28,13 +30,36 @@ nav ul {
     width: 100%;
     justify-content: space-around;
     height: 100%;
-    border-right: 1px solid black;
+    border-right: 0.2px inset #5f5f5f;;
     text-align: center;
 }
 
 .menu a {
     text-decoration: none;
     color: white;
+}
+
+.menu form {
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 7px;
+    color: white;
+    height: 70%;
+    max-width: 80%;
+    padding: 2px 0 0 3px;
+    
+}
+
+.menu input {
+    background: linear-gradient(#777, #666, #333, #666, #777);
+    border: none;
+    border-radius: 7px;
+    max-width: 80%;
+    color: white;
+    padding-left: 5px;
+}
+
+nav ul li:hover {
+    background: linear-gradient(#666, black);
 }
 
 .top-container {
@@ -62,15 +87,61 @@ nav ul {
     max-width: 100%;
 }
 
-.text {
+.title {
+    font-family: 'Montserrat', sans-serif;
     color: white;
+    max-width: 60%;
+    margin: 70px auto;
     text-align: center;
-    width: 50%;
-    margin:  100px auto;
+    font-size: 25px;
+    font-weight: 100;
 }
 
-.footer {
-    max-width: 900px;
+footer {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    max-width: 1100px;
+    min-height: 40px;
     margin:  20px auto;
-    font-size: 11px;
+    color: gray;
+    font-size: 10px;
+}
+
+footer a {
+    color: #0088cc;
+}
+
+.title p a:hover, 
+footer a:hover {
+    text-decoration: underline;
+}
+
+.left-footer,
+.left-lower-footer {
+    float: left;
+}
+
+.right-footer ul {
+    display: flex;
+    float: right;
+    list-style-type: none;
+}
+
+.right-footer ul li {
+    border-right: 1px solid rgb(223, 219, 219);
+    padding: 0 5px;
+}
+
+.left-lower-footer {
+    margin-top: 10px;
+}
+
+.title > h1,
+.title > h4, 
+.watch {
+    position: relative;
+    margin-top: 30px;
+}
+
+.title p a {
+    color: white;
 }
