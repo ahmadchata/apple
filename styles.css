@@ -10,7 +10,7 @@ nav {
     background: linear-gradient(#999, #888, #777, #666, #333, #666, #777, #888, #999);
     border-radius: 4px;
     top: 40px;;
-    width: 70%;
+    max-width: 800px;
     height: 40px;
     margin: auto;
 }
