@@ -19,7 +19,7 @@ Apple's old website clone using the concept of
 </ul>
 
 # Live Demo
-<a href="https://raw.githack.com/ahmadchata/apple/feature-homepage.html">Live Demo Link</a>
+<a href="https://raw.githack.com/ahmadchata/apple/feature-homepage/index.html">Live Demo Link</a>
 
 # Authors
 <ul>
