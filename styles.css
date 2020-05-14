@@ -1,147 +1,141 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 nav {
-    position: relative;
-    background: linear-gradient(#999, #888, #777, #666, #333, #666, #777, #888, #999);
-    border-radius: 4px;
-    top: 40px;;
-    max-width: 800px;
-    height: 40px;
-    margin: auto;
+  position: relative;
+  background: linear-gradient(#999, #888, #777, #666, #333, #666, #777, #888, #999);
+  border-radius: 4px;
+  top: 40px;
+  max-width: 800px;
+  height: 40px;
+  margin: auto;
 }
 
 nav ul {
-    display: flex;
-    height: 100%;
-    list-style-type: none;
+  display: flex;
+  height: 100%;
+  list-style-type: none;
 }
 
 nav ul li {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .menu {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    height: 100%;
-    border-right: 0.2px inset #5f5f5f;;
-    text-align: center;
-}
-
-.menu a {
-    text-decoration: none;
-    color: white;
-}
-
-.menu form {
-    border: 1px solid rgb(71, 71, 71);
-    border-radius: 7px;
-    color: white;
-    height: 70%;
-    max-width: 80%;
-    padding: 2px 0 0 3px;
-    
-}
-
-.menu input {
-    background: linear-gradient(#777, #666, #333, #666, #777);
-    border: none;
-    border-radius: 7px;
-    max-width: 80%;
-    color: white;
-    padding-left: 5px;
-}
-
-nav ul li:hover {
-    background: linear-gradient(#666, black);
-}
-
-.top-container {
-    background: url(img/your_verse_hero.jpg);
-    background-position: bottom;
-    max-width: 1300px;
-    min-height: 500px;
-    margin: 0 auto;
-}
-
-.body {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.products {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    max-width: match-parent;
-    margin: auto;
-    grid-gap: 5px;
-}
-
-.products img {
-    max-width: 100%;
-}
-
-.title {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    max-width: 60%;
-    margin: 70px auto;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 100;
-}
-
-footer {
-    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    max-width: 1100px;
-    min-height: 40px;
-    margin:  20px auto;
-    color: gray;
-    font-size: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 100%;
+  border-right: 0.2px inset #5f5f5f;
+  text-align: center;
 }
 
 footer a {
-    color: #0088cc;
+  color: #08c;
 }
 
-.title p a:hover, 
-footer a:hover {
-    text-decoration: underline;
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu form {
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 7px;
+  color: white;
+  height: 70%;
+  max-width: 80%;
+  padding: 2px 0 0 3px;
+}
+
+.menu input {
+  background: linear-gradient(#777, #666, #333, #666, #777);
+  border: none;
+  border-radius: 7px;
+  max-width: 80%;
+  color: white;
+  padding-left: 5px;
+}
+
+.right-footer ul li {
+  border-right: 1px solid rgb(223, 219, 219);
+  padding: 0 5px;
+}
+
+nav ul li:hover {
+  background: linear-gradient(#666, black);
+}
+
+.top-container {
+  background: url(img/your_verse_hero.jpg);
+  background-position: bottom;
+  max-width: 1300px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  max-width: match-parent;
+  margin: auto;
+  grid-gap: 5px;
+}
+
+.products img {
+  max-width: 100%;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  max-width: 60%;
+  margin: 70px auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+footer {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  max-width: 1100px;
+  min-height: 40px;
+  margin: 20px auto;
+  color: gray;
+  font-size: 10px;
+}
+
+.title p a {
+  color: white;
+}
+
+footer a:hover,
+.title p a:hover {
+  text-decoration: underline;
 }
 
 .left-footer,
 .left-lower-footer {
-    float: left;
+  float: left;
 }
 
 .right-footer ul {
-    display: flex;
-    float: right;
-    list-style-type: none;
-}
-
-.right-footer ul li {
-    border-right: 1px solid rgb(223, 219, 219);
-    padding: 0 5px;
+  display: flex;
+  float: right;
+  list-style-type: none;
 }
 
 .left-lower-footer {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .title > h1,
-.title > h4, 
+.title > h4,
 .watch {
-    position: relative;
-    margin-top: 30px;
-}
-
-.title p a {
-    color: white;
+  position: relative;
+  margin-top: 30px;
 }
