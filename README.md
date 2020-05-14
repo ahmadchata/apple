@@ -19,12 +19,12 @@ Apple's old website clone using the concept of
 </ul>
 
 # Live Demo
-<a href="#">Live Demo Link</a>
+<a href="https://raw.githack.com/ahmadchata/apple/feature-homepage.html">Live Demo Link</a>
 
 # Authors
 <ul>
 <li>GitHub: @ahmadchata</li>
-<li>Twiiter: @ahmadchata</li>
+<li>Twitter: @ahmadchata</li>
 <li>LinkedIn: https://www.linkedin.com/in/ahmad-chata-957b9b51/</li>
 </ul>
 
