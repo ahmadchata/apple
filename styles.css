@@ -81,7 +81,7 @@ nav ul li:hover {
 .products {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  max-width: match-parent;
+  max-width: 1300px;
   margin: auto;
   grid-gap: 5px;
 }
