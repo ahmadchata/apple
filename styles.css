@@ -43,22 +43,35 @@ footer a {
   color: white;
 }
 
+.fa-search {
+  position: absolute;
+  left: 17px;
+  top: 5px;
+  font-size: 14px;
+}
+
 .menu form {
-  border: 1px solid rgb(71, 71, 71);
-  border-radius: 7px;
+  position: relative;
   color: white;
   height: 70%;
-  max-width: 80%;
   padding: 2px 0 0 3px;
 }
 
 .menu input {
+  display: inline-block;
   background: linear-gradient(#777, #666, #333, #666, #777);
   border: none;
   border-radius: 7px;
-  max-width: 80%;
-  color: white;
-  padding-left: 5px;
+  box-sizing: border-box;
+  width: 80%;
+  color: black;
+  transition: all 0.4s ease;
+  padding-left: 25px;
+}
+
+.menu input:focus {
+  width: 100%;
+  background: white;
 }
 
 .right-footer ul li {
